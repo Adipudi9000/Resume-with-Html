@@ -1,0 +1,124 @@
+
+.border {
+	margin: auto;
+  width: 70%;
+  border: 3px solid black;
+  padding-bottom: 100;
+ border-color: #4d004d;
+    box-sizing: border-box;
+    background-color: #ffe6cc;
+
+}
+
+.Details{
+
+padding-top: 25;
+}
+
+.sap{
+	
+	font-size: 16;
+	text-align: right;
+	width: 100%
+		
+}
+
+.mam{
+	
+	font-size: 16;
+	text-align: right;
+	width: 100%
+		padding-right: 200;
+	
+
+}
+
+.nam{
+	font-size: 20;
+	text-align: left;
+	width: 75%
+	
+}
+
+.lane{
+	height: 0.5px;
+	border-color: #cc00cc;
+	background-color: #cc00cc;
+	background-size: auto;
+}
+
+.bac{
+	background-color: #b3b3b3;
+    padding-left:25;
+    font-style: Strong;
+
+
+}
+.ali{
+	padding-left: 30;
+	font-size: 17;
+}
+.wor{
+	padding-left: 10;
+
+}
+.sht{
+	background-color: #b3b3ff;
+    padding-left:35;
+    font-style: Strong;
+    width: 105;
+    font-size: 15;
+}
+.des{
+	font-size: 17;
+	padding-left: 80;
+}
+.dep{
+	font-size: 17;
+	padding-left: 60;
+}
+.edu{
+	border: 1px dashed black;
+	border-width: 100%;
+		font-size: 18;	
+	text-align: center;
+	width: 100%;
+  
+}
+td{
+	padding: 3px;
+    border: 1px solid #E88741;
+}
+.med{
+	padding-left: 50;
+	width: 75%
+}
+.fin{
+	padding-left: 20;
+}
+.fina{
+	text-align: right;
+	padding-right: 50;
+}
+
+.heading{
+	font-weight: bold;
+	text-align: center;
+	width: 100%
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #border { width:100%; }
+    #sap { width:30%; margin-left:3%;}  
+    #nam{width: 40%; margin-right: 2%}
+    #mam{width: 40%; margin-right: 2%}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #border { width:100%%; }
+    #sap { width:100%; margin:0; border:none; }
+    #nam { width:100%; margin:0; border:none; }
+    #mam { width:100%; margin:0; border:none; }
+}
+}
